@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+
+}
+nav{
+    font-size: 30px;
+    flex: 1;
+    text-align: right;
+    position: absolute;
+    right: 5%;
+    top: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgba(25, 82, 255, 0.864);
+}
+ /* header end  */
+
+
+
+
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+}
+.email{
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 6px 12px;
+    outline: 0px solid black;
+}
+
+.email:hover{
+    outline: 0px solid black;
+}
+
+.pass{
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin-top: 8px;
+    outline: 0px solid black;
+}
+.pass:hover{
+    outline: 0px solid black;
+}
+button{
+    margin-top: 20px;
+    padding: 7px 30px;
+    border-radius: 6px;
+    background-color: rgba(68, 62, 62, 0.221);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(130, 130, 130, 0.58);
+}
